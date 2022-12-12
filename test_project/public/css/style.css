@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  padding-top: 50px;
+}
+.header {
+  width: calc(80px + 32px);
+}
+.item {
+  display: grid;
+  grid-template-columns: 31% 69%;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--color-border-lightGray);
+}
+.title {
+  padding-right: 16px;
+}
+span {
+  color: red;
+}
+input {
+  border: 2px solid black;
+  width: 80%;
+}
+.entry {
+  text-align: left;
+}
+
+.submit_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+.detail {
+  margin-left: 10px;
+}
+tr, th, td, dt{
+  border: 1px solid black;
+}
+th, dt {
+  background-color: aquamarine;
+}
+td {
+  text-align: left;
+  padding-left: 10px;
+}
+.detail {
+  text-align: right;
+}
